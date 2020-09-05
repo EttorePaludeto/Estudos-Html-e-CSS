@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+:root{
+  --CinzaForte-color:#575756;
+  --CinzaClaro-color:#868685;
+  --Verde-color:#13a733;
+  --Vermelhor-color:#C20D19;
+  --Branco-color:#FFFFFF;
+}
+
+ /* demo */
+ body {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color:var(--CinzaForte-color);
+    background-image: linear-gradient(to right, #3e3e3f, #505754);
+   
+  }
+  
+.form__box{
+  margin: 100px;;
+  position: relative;
+  text-shadow: #3a3939 3px 3px;
+  box-sizing: content-box;
+  padding: 45px;
+  box-shadow: 0 0 100px rgb(230, 92, 12);
+  
+}
+
+.form__head{
+  color: var(--CinzaClaro-color);
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid var(--CinzaClaro-color);
+    outline: 0;
+    font-size: 20px;
+    font-weight: 300;
+    color:  var(--Branco-color);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+
+  .form__field::placeholder {
+    color: transparent;
+  }
+  .form__field:-ms-input-placeholder {
+    color: transparent;
+  }
+  .form__field::-ms-input-placeholder {
+    color: transparent;
+  }
+
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 20px;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 15px;
+    color:  var(--CinzaClaro-color);
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 400;
+    border-width: 3.5px;
+    border-image: linear-gradient(to right, var(--Verde-color), var(--Verde-color));
+    border-image-slice: 1;
+  }
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.4s;
+    font-size: 15px;
+    color: var(--Verde-color);
+    font-weight: 400;
+  }
+  
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+  
+ 
