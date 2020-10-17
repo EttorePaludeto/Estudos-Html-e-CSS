@@ -1,0 +1,58 @@
+{
+    "pagador": {
+        "cnpjCpf": "08292425000123",
+        "nome": "AFONSO CELSO FARIA DE TOLEDO E OUTROS",
+        "email": "",
+        "telefone": "",
+        "cep": "18500000",
+        "numero": "0",
+        "complemento": "SITIO SÃO JOSÉ",
+        "bairro": "ENTRE RIOS",
+        "cidade": "LARANJAL PAULISTA",
+        "uf": "SP",
+        "endereco": "ESTRADA MUNICIPAL",
+        "ddd": "15",
+        "tipoPessoa": "JURIDICA"
+    },
+    "dataEmissao": "2020-10-05",
+    "seuNumero": "2020100501",
+    "dataLimite": "2020-12-12",
+    "dataVencimento": "2020-10-13",
+    "mensagem": {
+        "linha1": "Honorários Contábeis 09/2020"
+    },
+    "desconto1": {
+        "codigoDesconto": "NAOTEMDESCONTO",
+        "taxa": 0,
+        "valor": 0,
+        "data": ""
+    },
+    "desconto2": {
+        "codigoDesconto": "NAOTEMDESCONTO",
+        "taxa": 0,
+        "valor": 0,
+        "data": ""
+    },
+    "desconto3": {
+        "codigoDesconto": "NAOTEMDESCONTO",
+        "taxa": 0,
+        "valor": 0,
+        "data": ""
+    },
+    "valorNominal": 120,
+    "valorAbatimento": 0,
+    "multa": {
+        "codigoMulta": "ISENTO",
+        "data": "",
+        "valor": 0,
+        "taxa": 0
+    },
+    "mora": {
+        "codigoMora": "ISENTO",
+        "data": "",
+        "valor": 0,
+        "taxa": 0
+    },
+    "cnpjCPFBeneficiario": "58981945000111",
+    "numDiasAgenda": "SESSENTA"
+}
